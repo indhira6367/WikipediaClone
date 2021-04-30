@@ -1,0 +1,358 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  line-height: 1.5;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+header .header-elements {
+  display: block;
+  width: 200px;
+  height: 70px;
+  margin: 0 auto;
+  margin-top: 35px;
+  text-align: center;
+}
+
+main .main-languajes {
+  position: relative;
+  font-family: Georgia,'Times New Roman',Times,serif;
+  text-align: center;
+  vertical-align: middle;
+  width: 500px;
+  height: 300px;
+  margin: 0 auto 10px auto;
+}
+
+main .main-languajes img {
+  position: absolute;
+  top: 70px;
+  left: 150px;
+}
+
+main .main-languajes a {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: center;
+  cursor: pointer;
+}
+
+main .main-languajes a span {
+  text-align: inherit;
+  color: #3265cb;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+main .main-languajes a:hover span {
+  text-decoration: underline;
+}
+
+main .main-languajes a p {
+  text-align: inherit;
+  color: #54595d;
+  font-size: 12px;
+  margin: 5px 0 0 0;
+}
+
+main .main-languajes a:hover p {
+  text-decoration: none;
+}
+
+main .main-languaje-1 {
+  position: absolute;
+  top: 15px;
+  left: 55px;
+}
+
+main .main-languaje-2 {
+  position: absolute;
+  top: 15px;
+  right: 55px;
+}
+
+main .main-languaje-3 {
+  position: absolute;
+  top: 75px;
+  left: 10px;
+}
+
+main .main-languaje-4 {
+  position: absolute;
+  top: 75px;
+  right: 10px;
+}
+
+main .main-languaje-5 {
+  position: absolute;
+  top: 135px;
+  left: 0;
+}
+
+main .main-languaje-6 {
+  position: absolute;
+  top: 135px;
+  right: 0;
+}
+
+main .main-languaje-7 {
+  position: absolute;
+  top: 195px;
+  left: 10px;
+}
+
+main .main-languaje-8 {
+  position: absolute;
+  top: 195px;
+  right: 10px;
+}
+
+main .main-languaje-9 {
+  position: absolute;
+  top: 255px;
+  left: 55px;
+}
+
+main .main-languaje-10 {
+  position: absolute;
+  top: 255px;
+  right: 55px;
+}
+
+main .main-search {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 20px;
+}
+
+main .main-search .main-search-input {
+  width: 400px;
+  height: 40px;
+  border-radius: 1px;
+  border: 1px solid #a2a9b1;
+  display: flex;
+  align-items: center;
+}
+
+main .main-search .main-search-input:hover { 
+  border: 2px solid #36c;
+}
+
+main .main-search .main-search-input input {
+  width: 80%;
+  height: 90%;
+  padding-right: 80px;
+  padding-left: 10px;
+  border: none;
+  outline: none;
+}
+
+main .main-search .main-search-input button {
+  width: 80px;
+  height: 20px;
+  background-color: white;
+  border: 0;
+  font-size: 14px;
+  color: gray;
+  border-radius: 5px;
+  padding: 0 15px;
+  margin-right: 15px;
+}
+
+main .main-search .main-search-input button:hover {
+  background-color: #f2f2f2;
+}
+
+main .main-search-button{
+  border: 1px solid #36c;
+  background-color: #36c;
+  border-radius: 0 2px 2px 0;
+  padding: 8px 25px;
+  line-height: 1.6;
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: middle;
+  background-image: url('../images/no-hover.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+main .main-search-button:hover{
+  border: 1px solid #36c;
+  background-color: #1c80ff;
+  background-image: url('../images/hover.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+main .main-select {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  position: relative;
+  font-family: Georgia,'Times New Roman',Times,serif;
+  text-align: center;
+  vertical-align: middle;
+  width: 500px;
+  height: 50px;
+  margin: 0 auto 0 auto;
+}
+
+main .main-select hr{
+  position: absolute;
+  width: 500px;
+  clear: both;
+  border: none;
+  border-bottom: 1px solid #c8ccd1;
+  top: 50px;
+  
+}
+
+main .main-select button {
+  position: absolute;
+  height: 31px;
+  width: 225px;
+  background-color: #f8f9fa;
+  border: 1px solid #a2a9b1;
+  border-radius: 2px;
+  color: #36c;
+  font-size: 13px;
+  top: 40px;
+  left: 137.5px;
+}
+
+main .main-hr {
+  width: 95%;
+  clear: both;
+  border: none;
+  border-bottom: 1px solid #c8ccd1;
+  top: 50px;
+}
+
+main .main-side {
+  display: inline-block;
+  width: 350px;
+  height: 350px;
+  margin: 50px 0px 50px 100px;
+  color: #54595d;
+  font-size: 13px;
+}
+
+main .main-side-fundation {
+  margin: 0 auto;
+  height: 76px;
+  font-size: 13px;
+  position: relative;
+  padding-bottom: 40px;
+}
+
+main .main-side-fundation img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+main .main-side-fundation span {
+  position: absolute;
+  margin: 0;
+  padding-left: 60px;
+  padding-right: 20px;
+  color: #54595d;
+  font-size: 13px;
+  width: 270px;
+}
+
+main .main-side-apps {
+  margin: 0 auto;
+  height: 180px;
+  position: relative;
+  padding-top: 10px;
+  background-color: #f8f9fa;
+}
+
+main .main-side-apps-wiki {
+  position: absolute;
+  top: 10px;
+  left: 6px;
+  box-shadow: 0 2px 1px lightgray;
+}
+
+main .main-side-apps span {
+  position: absolute;
+  padding-left: 60px;
+  padding-right: 20px;
+  color: #54595d;
+  font-size: 13px;
+  width: 270px;
+}
+
+main .main-grid {
+  display: inline-block;
+  position: absolute;
+  margin: 50px 0px 50px 100px;
+  width: 60%;
+}
+
+main .main-grid-links{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  min-height: 50px;
+}
+main .main-grid-link {
+  display: inline-block;
+    padding-top: 0;
+    padding-bottom: 100px;
+    width: 100%;
+    white-space: nowrap;
+}
+main .main-grid-link a {
+  position: relative;
+  
+}
+
+main .main-grid-link a img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+main .main-grid-link a span {
+  position: absolute;
+  margin: 0 60px;
+  width: 200px;
+}
+
+main .main-grid-link a strong {
+  font-size: 14px;
+  color: #36c;
+}
+
+main .main-grid-link a p {
+  color: #54595d;
+  font-size: 12px;
+  margin: 0;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color:#54595d;
+  text-align: center;
+}
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
